@@ -53,3 +53,85 @@
   left: -55px;
   background-color: currentColor;
 }
+/*  cup box ends */
+
+
+/*  face */
+.face {
+  position:absolute;
+  width: 100px;
+  height: 130px;
+
+  left: 200px;
+  border-radius: 100%;
+  border: 2px solid currentColor;
+}
+
+.face .eyes, .face .eyes:before, .face .eyes:after {
+    border-radius: 100%;
+}
+
+.face .eyes {
+  width: 30px;
+  height: 20px;
+  box-shadow:
+    15px 40px 0 0 currentColor,
+    55px 40px 0 0 currentColor;
+}
+
+.face .eyes:before {
+  content: "";
+  width: 28px;
+  height: 18px;
+  position:absolute;
+  box-shadow:
+    16px 41px 0 0 white,
+    56px 41px 0 0 white;
+}
+
+.face .eyes:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  position:absolute;
+  box-shadow:
+    25px 45px 0 0 currentColor,
+    64px 45px 0 0 currentColor;
+}
+
+/*  node */
+.face .nose {
+  position: absolute;
+  top: 65px;
+  left: 43px;
+  width: 15px;
+  height: 15px;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  -webkit-transform: rotate(-20deg);
+}
+
+.face .nose:before {
+  content: "";
+  position:absolute;
+  width: 4px;
+  height: 4px;
+  bottom: 0px;
+  border-left: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+}
+
+/*  Mouth */
+
+.mouth {
+  width: 25px;
+  height: 15px;
+  position:absolute;
+  top: 80px;
+  left: 38px;
+  border-radius: 100%;
+  box-shadow:
+    0px 10px 0 0 currentColor;
+}
+
+/*  face ends */
