@@ -1,0 +1,55 @@
+.icon-containers .icon-container {
+  display: inline-block;
+  position: relative;
+}
+/* CUP Start */
+.cup-box {
+  color: black;
+  background-color: currentColor;
+  position: absolute;
+  left: 30px;
+  width: 70px;
+  height: 10px;
+  top: 140px;
+}
+
+.cup-box:before {
+  content: "";
+  top: -90px;
+  width: 10px;
+  height: 100px;
+  left: -10px;
+  background-color:currentColor;
+  position: absolute;
+  -webkit-transform: rotate(-10deg)
+}
+
+.cup-box:after {
+  content: "";
+  top: -90px;
+  width: 10px;
+  height: 100px;
+  right: -10px;
+  background-color:currentColor;
+  position: absolute;
+  -webkit-transform: rotate(10deg)
+}
+
+.cup-box i {
+  width: 10px;
+  height: 120px;
+  background-color: currentColor;
+  position:absolute;
+  left:30px;
+  top: -135px;
+}
+
+.cup-box i:before {
+  content: "";
+  width: 120px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: -55px;
+  background-color: currentColor;
+}
